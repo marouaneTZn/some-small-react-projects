@@ -1,2 +1,2 @@
 # some-small-react-projects
-Sometimes I just like to waremap a little bit with some small project to not forgate anythong &lt;3
+This repository is a collection of small-scale React applications designed for consistent practice. I use these projects to sharpen my skills, experiment with new hooks, and ensure I stay up-to-date with the React ecosystem. &lt;3
