@@ -1,0 +1,143 @@
+/* =========================================
+    this here for everything
+   ========================================= */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================================
+   For the body
+   ========================================= */
+body {
+    background-color: #23252C; 
+    display: flex;
+    justify-content: center; 
+      
+    min-height: 100vh;       
+    font-family: sans-serif; 
+}
+
+/* =========================================
+    For the card
+   ========================================= */
+
+.card {
+    width: 317px;
+    background-color: #1A1B21;
+}
+
+.adele {
+    width: 317px; 
+    border-radius: 10px 10px 0px 0px; 
+}
+
+/* =========================================
+    For the content
+   ========================================= */
+
+.content-wrapper {
+    
+    text-align: center;
+}
+
+.content-wrapper > h1{
+    margin: auto auto;
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.content-wrapper > h2{
+    color: #F3BF99;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.content-wrapper > a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 8px;
+    margin-top: 8px;
+}
+
+
+
+.social {
+    display: flex;
+    gap: 1rem; /* Adjusted gap to look closer to the image */
+    justify-content: center;
+    margin-top: 18px;
+    width: 100%;
+    max-width: 320px; /* Optional: limits the total width of the button row */
+    margin-inline: auto;
+}
+
+/* Base styles for both buttons */
+.email-btn, .linkedin-btn {
+    width: 115px; 
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px 0;
+    border-radius: 5px;    
+    gap: 7px;
+    text-decoration: none;
+}
+
+.email-btn {
+    background-color: #ffffff;
+    color: #374151;
+    border: 1px solid #D1D5DB; /* Light border often used for white buttons */
+    font-size: 14px;
+}
+
+.linkedin-btn {
+    background-color: #5093E2;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.sicon {
+    width: 16px; /* Slightly larger icon for better visibility */
+    height: auto;
+}
+
+.discriptions {
+    text-align: left;
+    margin: 10px;
+    color: white;
+    margin: 22px;
+}
+
+.dis-h2 {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.dis-p {
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+
+
+.hellooox {
+    display: flex;
+    justify-content: center; /* Horizontal */
+    align-items: center;     /* Vertical */
+    background-color: #161619;
+    height: 64px;
+    gap: 2.5rem;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px 10px 0px 0px; 
+}
+
+.hellooox > img {
+    padding: 0;
+    width: 25px;
+}
+
